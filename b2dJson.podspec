@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.exclude_files = 'c++/*OpenGL*', 'c++/jsoncpp.cpp'
 
   s.dependency 'box2d'
-  s.dependency 'jsoncpp', '~> 0.6.2.rc2'
+  s.dependency 'jsoncpp', '~> 0.6.0.rc2'
 end
